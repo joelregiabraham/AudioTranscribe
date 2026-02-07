@@ -1,0 +1,16 @@
+# Audio Transcriber — Dependencies
+# Recommended: Python 3.12.x (best CUDA/CTranslate2 compatibility)
+#
+# Install:  pip install -r requirements.txt
+
+# GUI
+customtkinter>=5.2.0
+
+# Transcription engine (CTranslate2-based, GPU-accelerated)
+faster-whisper>=1.1.0
+
+# CUDA GPU support (optional but strongly recommended)
+# Install PyTorch with CUDA separately if not already installed:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# If you only want CPU mode, the above is not needed.
